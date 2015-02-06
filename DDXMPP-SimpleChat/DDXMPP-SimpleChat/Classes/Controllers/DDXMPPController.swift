@@ -18,6 +18,8 @@ class DDXMPPController: NSObject {
         return Static.instance!
     }
     
+    //var xmppStream :XMPPStream?;
+    
     func setupSream() -> Void
     {
         

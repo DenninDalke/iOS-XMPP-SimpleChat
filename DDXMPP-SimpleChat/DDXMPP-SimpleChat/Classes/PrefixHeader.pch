@@ -9,6 +9,8 @@
 #ifndef DDXMPP_SimpleChat_PrefixHeader_pch
 #define DDXMPP_SimpleChat_PrefixHeader_pch
 
+#endif
+
 #import <UIKit/UIKit.h>
 
-#endif
+#import "XMPP.h"

@@ -7,9 +7,4 @@
 //  Copyright (c) 2015 Dennin Dalke. All rights reserved.
 //
 
-#ifndef DDXMPP_SimpleChat_Bridging_Header_h
-#define DDXMPP_SimpleChat_Bridging_Header_h
-
-
-
-#endif
+#import "XMPP.h"
