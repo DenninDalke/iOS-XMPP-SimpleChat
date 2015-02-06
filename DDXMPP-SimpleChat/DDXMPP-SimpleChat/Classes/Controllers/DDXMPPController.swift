@@ -22,7 +22,6 @@ class DDXMPPController: NSObject {
     {
         
         
-        
         /*
         xmppStream = [[XMPPStream alloc]init];
         [xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];

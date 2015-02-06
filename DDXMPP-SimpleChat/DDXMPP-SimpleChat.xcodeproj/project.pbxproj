@@ -14,7 +14,12 @@
 		310BD7821A85176E00A5EFF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310BD7801A85176E00A5EFF8 /* LaunchScreen.xib */; };
 		310BD78E1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD78D1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift */; };
 		310BD79C1A851DBB00A5EFF8 /* DDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD79B1A851DBB00A5EFF8 /* DDLoginViewController.swift */; };
+		31D5044A1A852D9F00BF4ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D504491A852D9F00BF4ECD /* UIKit.framework */; };
+		31D5044C1A852DBA00BF4ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D5044B1A852DBA00BF4ECD /* Foundation.framework */; };
+		31D506651A85310F00BF4ECD /* Vendor in Resources */ = {isa = PBXBuildFile; fileRef = 31D506641A85310F00BF4ECD /* Vendor */; };
 		31D5F5CF1A8524DB00BF4ECD /* DDXMPPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5CE1A8524DB00BF4ECD /* DDXMPPController.swift */; };
+		31D5FE4A1A85275C00BF4ECD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D5FE491A85275C00BF4ECD /* CFNetwork.framework */; };
+		31D5FE4C1A85289900BF4ECD /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D5FE4B1A85289900BF4ECD /* libresolv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,14 @@
 		310BD78C1A85176E00A5EFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		310BD78D1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDXMPP_SimpleChatTests.swift; sourceTree = "<group>"; };
 		310BD79B1A851DBB00A5EFF8 /* DDLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDLoginViewController.swift; path = Classes/ViewController/DDLoginViewController.swift; sourceTree = "<group>"; };
-		31D5F5CD1A85248900BF4ECD /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "DDXMPP-SimpleChat/Classes/Bridging-Header.h"; sourceTree = "<group>"; };
+		31D504491A852D9F00BF4ECD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31D5044B1A852DBA00BF4ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31D504661A852ECD00BF4ECD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Classes/PrefixHeader.pch; sourceTree = "<group>"; };
+		31D506641A85310F00BF4ECD /* Vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Vendor; path = "DDXMPP-SimpleChat/Vendor"; sourceTree = "<group>"; };
+		31D5F5CD1A85248900BF4ECD /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Classes/Bridging-Header.h"; sourceTree = "<group>"; };
 		31D5F5CE1A8524DB00BF4ECD /* DDXMPPController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDXMPPController.swift; path = Classes/Controllers/DDXMPPController.swift; sourceTree = "<group>"; };
+		31D5FE491A85275C00BF4ECD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		31D5FE4B1A85289900BF4ECD /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D5044C1A852DBA00BF4ECD /* Foundation.framework in Frameworks */,
+				31D5044A1A852D9F00BF4ECD /* UIKit.framework in Frameworks */,
+				31D5FE4C1A85289900BF4ECD /* libresolv.dylib in Frameworks */,
+				31D5FE4A1A85275C00BF4ECD /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,10 +79,11 @@
 		310BD7691A85176E00A5EFF8 = {
 			isa = PBXGroup;
 			children = (
-				31D5F5CD1A85248900BF4ECD /* Bridging-Header.h */,
+				31D506641A85310F00BF4ECD /* Vendor */,
 				310BD7741A85176E00A5EFF8 /* DDXMPP-SimpleChat */,
 				310BD78A1A85176E00A5EFF8 /* DDXMPP-SimpleChatTests */,
 				310BD7731A85176E00A5EFF8 /* Products */,
+				31D504481A852D6500BF4ECD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +112,8 @@
 		310BD7751A85176E00A5EFF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31D504661A852ECD00BF4ECD /* PrefixHeader.pch */,
+				31D5F5CD1A85248900BF4ECD /* Bridging-Header.h */,
 				310BD7761A85176E00A5EFF8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -158,6 +176,17 @@
 				31D5F5CE1A8524DB00BF4ECD /* DDXMPPController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		31D504481A852D6500BF4ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31D5044B1A852DBA00BF4ECD /* Foundation.framework */,
+				31D504491A852D9F00BF4ECD /* UIKit.framework */,
+				31D5FE491A85275C00BF4ECD /* CFNetwork.framework */,
+				31D5FE4B1A85289900BF4ECD /* libresolv.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +253,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 310BD7691A85176E00A5EFF8;
 			productRefGroup = 310BD7731A85176E00A5EFF8 /* Products */;
@@ -241,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D506651A85310F00BF4ECD /* Vendor in Resources */,
 				310BD77D1A85176E00A5EFF8 /* Main.storyboard in Resources */,
 				310BD7821A85176E00A5EFF8 /* LaunchScreen.xib in Resources */,
 				310BD77F1A85176E00A5EFF8 /* Images.xcassets in Resources */,
@@ -387,8 +418,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "DDXMPP-SimpleChat/Classes/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "DDXMPP-SimpleChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/facebook-ios-sdk/vendor/OCMock/Examples/iOS5Example/usr/lib",
+					"$(PROJECT_DIR)/facebook-ios-sdk/vendor/OCMock/Examples/iPhoneExample/Libraries",
+					"$(PROJECT_DIR)/libidn",
+					"$(PROJECT_DIR)/Vendor/libidn",
+					"$(PROJECT_DIR)/DDXMPP-SimpleChat/Vendor/libidn",
+				);
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DDXMPP-SimpleChat/Classes/Bridging-Header.h";
 			};
@@ -398,8 +445,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "DDXMPP-SimpleChat/Classes/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "DDXMPP-SimpleChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/facebook-ios-sdk/vendor/OCMock/Examples/iOS5Example/usr/lib",
+					"$(PROJECT_DIR)/facebook-ios-sdk/vendor/OCMock/Examples/iPhoneExample/Libraries",
+					"$(PROJECT_DIR)/libidn",
+					"$(PROJECT_DIR)/Vendor/libidn",
+					"$(PROJECT_DIR)/DDXMPP-SimpleChat/Vendor/libidn",
+				);
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DDXMPP-SimpleChat/Classes/Bridging-Header.h";
 			};
