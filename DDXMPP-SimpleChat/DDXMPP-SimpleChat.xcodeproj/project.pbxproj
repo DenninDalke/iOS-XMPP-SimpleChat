@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310BD7781A85176E00A5EFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD7771A85176E00A5EFF8 /* AppDelegate.swift */; };
+		310BD77A1A85176E00A5EFF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD7791A85176E00A5EFF8 /* ViewController.swift */; };
+		310BD77D1A85176E00A5EFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310BD77B1A85176E00A5EFF8 /* Main.storyboard */; };
+		310BD77F1A85176E00A5EFF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310BD77E1A85176E00A5EFF8 /* Images.xcassets */; };
+		310BD7821A85176E00A5EFF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310BD7801A85176E00A5EFF8 /* LaunchScreen.xib */; };
+		310BD78E1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD78D1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift */; };
+		310BD79C1A851DBB00A5EFF8 /* DDLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD79B1A851DBB00A5EFF8 /* DDLoginViewController.swift */; };
+		31D5F5CF1A8524DB00BF4ECD /* DDXMPPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D5F5CE1A8524DB00BF4ECD /* DDXMPPController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		310BD7881A85176E00A5EFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310BD76A1A85176E00A5EFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310BD7711A85176E00A5EFF8;
+			remoteInfo = "DDXMPP-SimpleChat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		310BD7721A85176E00A5EFF8 /* DDXMPP-SimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DDXMPP-SimpleChat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310BD7761A85176E00A5EFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310BD7771A85176E00A5EFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		310BD7791A85176E00A5EFF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		310BD77C1A85176E00A5EFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		310BD77E1A85176E00A5EFF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		310BD7811A85176E00A5EFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		310BD7871A85176E00A5EFF8 /* DDXMPP-SimpleChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DDXMPP-SimpleChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310BD78C1A85176E00A5EFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310BD78D1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDXMPP_SimpleChatTests.swift; sourceTree = "<group>"; };
+		310BD79B1A851DBB00A5EFF8 /* DDLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDLoginViewController.swift; path = Classes/ViewController/DDLoginViewController.swift; sourceTree = "<group>"; };
+		31D5F5CD1A85248900BF4ECD /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "DDXMPP-SimpleChat/Classes/Bridging-Header.h"; sourceTree = "<group>"; };
+		31D5F5CE1A8524DB00BF4ECD /* DDXMPPController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDXMPPController.swift; path = Classes/Controllers/DDXMPPController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310BD76F1A85176E00A5EFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310BD7841A85176E00A5EFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310BD7691A85176E00A5EFF8 = {
+			isa = PBXGroup;
+			children = (
+				31D5F5CD1A85248900BF4ECD /* Bridging-Header.h */,
+				310BD7741A85176E00A5EFF8 /* DDXMPP-SimpleChat */,
+				310BD78A1A85176E00A5EFF8 /* DDXMPP-SimpleChatTests */,
+				310BD7731A85176E00A5EFF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		310BD7731A85176E00A5EFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310BD7721A85176E00A5EFF8 /* DDXMPP-SimpleChat.app */,
+				310BD7871A85176E00A5EFF8 /* DDXMPP-SimpleChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310BD7741A85176E00A5EFF8 /* DDXMPP-SimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				310BD79D1A851E2A00A5EFF8 /* Controllers */,
+				310BD7981A85182500A5EFF8 /* Model */,
+				310BD79A1A851D7000A5EFF8 /* Resources */,
+				310BD7991A85182B00A5EFF8 /* View */,
+				310BD7971A85181A00A5EFF8 /* ViewController */,
+				310BD7751A85176E00A5EFF8 /* Supporting Files */,
+			);
+			path = "DDXMPP-SimpleChat";
+			sourceTree = "<group>";
+		};
+		310BD7751A85176E00A5EFF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				310BD7761A85176E00A5EFF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		310BD78A1A85176E00A5EFF8 /* DDXMPP-SimpleChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				310BD78D1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift */,
+				310BD78B1A85176E00A5EFF8 /* Supporting Files */,
+			);
+			path = "DDXMPP-SimpleChatTests";
+			sourceTree = "<group>";
+		};
+		310BD78B1A85176E00A5EFF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				310BD78C1A85176E00A5EFF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		310BD7971A85181A00A5EFF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				310BD7771A85176E00A5EFF8 /* AppDelegate.swift */,
+				310BD7791A85176E00A5EFF8 /* ViewController.swift */,
+				310BD79B1A851DBB00A5EFF8 /* DDLoginViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		310BD7981A85182500A5EFF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		310BD7991A85182B00A5EFF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				310BD77B1A85176E00A5EFF8 /* Main.storyboard */,
+				310BD7801A85176E00A5EFF8 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		310BD79A1A851D7000A5EFF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				310BD77E1A85176E00A5EFF8 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		310BD79D1A851E2A00A5EFF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31D5F5CE1A8524DB00BF4ECD /* DDXMPPController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		310BD7711A85176E00A5EFF8 /* DDXMPP-SimpleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310BD7911A85176E00A5EFF8 /* Build configuration list for PBXNativeTarget "DDXMPP-SimpleChat" */;
+			buildPhases = (
+				310BD76E1A85176E00A5EFF8 /* Sources */,
+				310BD76F1A85176E00A5EFF8 /* Frameworks */,
+				310BD7701A85176E00A5EFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DDXMPP-SimpleChat";
+			productName = "DDXMPP-SimpleChat";
+			productReference = 310BD7721A85176E00A5EFF8 /* DDXMPP-SimpleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310BD7861A85176E00A5EFF8 /* DDXMPP-SimpleChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310BD7941A85176E00A5EFF8 /* Build configuration list for PBXNativeTarget "DDXMPP-SimpleChatTests" */;
+			buildPhases = (
+				310BD7831A85176E00A5EFF8 /* Sources */,
+				310BD7841A85176E00A5EFF8 /* Frameworks */,
+				310BD7851A85176E00A5EFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310BD7891A85176E00A5EFF8 /* PBXTargetDependency */,
+			);
+			name = "DDXMPP-SimpleChatTests";
+			productName = "DDXMPP-SimpleChatTests";
+			productReference = 310BD7871A85176E00A5EFF8 /* DDXMPP-SimpleChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310BD76A1A85176E00A5EFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DD;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dennin Dalke";
+				TargetAttributes = {
+					310BD7711A85176E00A5EFF8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					310BD7861A85176E00A5EFF8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 310BD7711A85176E00A5EFF8;
+					};
+				};
+			};
+			buildConfigurationList = 310BD76D1A85176E00A5EFF8 /* Build configuration list for PBXProject "DDXMPP-SimpleChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310BD7691A85176E00A5EFF8;
+			productRefGroup = 310BD7731A85176E00A5EFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				310BD7711A85176E00A5EFF8 /* DDXMPP-SimpleChat */,
+				310BD7861A85176E00A5EFF8 /* DDXMPP-SimpleChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310BD7701A85176E00A5EFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310BD77D1A85176E00A5EFF8 /* Main.storyboard in Resources */,
+				310BD7821A85176E00A5EFF8 /* LaunchScreen.xib in Resources */,
+				310BD77F1A85176E00A5EFF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310BD7851A85176E00A5EFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		310BD76E1A85176E00A5EFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310BD79C1A851DBB00A5EFF8 /* DDLoginViewController.swift in Sources */,
+				310BD77A1A85176E00A5EFF8 /* ViewController.swift in Sources */,
+				31D5F5CF1A8524DB00BF4ECD /* DDXMPPController.swift in Sources */,
+				310BD7781A85176E00A5EFF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310BD7831A85176E00A5EFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310BD78E1A85176E00A5EFF8 /* DDXMPP_SimpleChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310BD7891A85176E00A5EFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310BD7711A85176E00A5EFF8 /* DDXMPP-SimpleChat */;
+			targetProxy = 310BD7881A85176E00A5EFF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		310BD77B1A85176E00A5EFF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310BD77C1A85176E00A5EFF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		310BD7801A85176E00A5EFF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310BD7811A85176E00A5EFF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		310BD78F1A85176E00A5EFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		310BD7901A85176E00A5EFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		310BD7921A85176E00A5EFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DDXMPP-SimpleChat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDXMPP-SimpleChat/Classes/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		310BD7931A85176E00A5EFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DDXMPP-SimpleChat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDXMPP-SimpleChat/Classes/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		310BD7951A85176E00A5EFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DDXMPP-SimpleChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDXMPP-SimpleChat.app/DDXMPP-SimpleChat";
+			};
+			name = Debug;
+		};
+		310BD7961A85176E00A5EFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DDXMPP-SimpleChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDXMPP-SimpleChat.app/DDXMPP-SimpleChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		310BD76D1A85176E00A5EFF8 /* Build configuration list for PBXProject "DDXMPP-SimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310BD78F1A85176E00A5EFF8 /* Debug */,
+				310BD7901A85176E00A5EFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310BD7911A85176E00A5EFF8 /* Build configuration list for PBXNativeTarget "DDXMPP-SimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310BD7921A85176E00A5EFF8 /* Debug */,
+				310BD7931A85176E00A5EFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310BD7941A85176E00A5EFF8 /* Build configuration list for PBXNativeTarget "DDXMPP-SimpleChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310BD7951A85176E00A5EFF8 /* Debug */,
+				310BD7961A85176E00A5EFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310BD76A1A85176E00A5EFF8 /* Project object */;
+}
